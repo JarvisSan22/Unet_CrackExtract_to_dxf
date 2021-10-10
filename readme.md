@@ -3,7 +3,7 @@
 
 [ 日本語版 README はこちら ]("https://github.com/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/README-ja.md")
 <br/>
-Author: Daniel James Jarvis 
+Author: Jarvis Daniel (JarvisSan)
 <br/>
 Email: jarvissan21@gmail.com
 Last edit: 2021/10/10
@@ -64,6 +64,10 @@ latest run, 128x128 image patches (1654) at 50 Epochs bath size 50, validation_s
 <img src="/pics/PredTest_2.png" width="600">
 <img src="/pics/PredTest_3.png" width="600">
 <img src="/pics/PredTest_4.png" width="600">
+#### Contour extraction example 
+
+<img src="/pics/Contour_extraction_20211010.png" width="600">
+
 ## Dataset 
 
 Standard data set: [deepcrack data set](https://github.com/yhlleo/DeepCrack)
