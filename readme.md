@@ -1,9 +1,17 @@
 
-[日本語版 README はこちら]("https://github.com/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/README-ja.md")
+<h1>Unet Crack Extract to dxf file</h1>
+
+[ 日本語版 README はこちら ]("https://github.com/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/README-ja.md")
 <br/>
 Author: Daniel James Jarvis 
 <br/>
 Email: jarvissan21@gmail.com
+Last edit: 2021/10/10
+
+
+# Updates 
+- 2021/10/10 Data processing and longer model run performed on work station. Imporvments are currently in in the notebook
+
 
 # Unet crack extract to dxf file.
 
@@ -11,7 +19,7 @@ UNET model based for cell segmentation trained on the [deepcrack data set](https
 
 - [X] Code notebooks created 
 - [X] 日本語版のREADME
-- [ ] Longer model train 
+- [X] Longer model train, code improvment  
 - [ ] Code to importable module
 - [ ] Non DeepCrack training, able to deal with larger images, diffrenataion from tiles and cracks around odd objects 
 
@@ -20,7 +28,7 @@ UNET model based for cell segmentation trained on the [deepcrack data set](https
 
 
 ## Code
-* [U_NET_CRACKS_20210702_DeepCrackDataset.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/U_NET_CRACKS_20210702_DeepCrackDataset.ipynb)  
+* [U_NET_CRACKS_20211010_DeepCrackDataset.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/U_NET_CRACKS_20211010_DeepCrackDataset.ipynb)    
 Model training and testing
 * [Crack_to_dxf.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/Crack_to_dxf.ipynb) 
 Extract crake and convert to dxf
@@ -46,10 +54,10 @@ pip3 install -r requirments.txt
 Model source Dr. Sreenivas Bhattiprolu  [U-net](https://github.com/bnsreenu/python_for_microscopists/blob/master/074-Defining%20U-net%20in%20Python%20using%20Keras.py), altenred to for black and white images and tested at diffrent convolution (Standard, small(x0.5), large(x2))
 
 ### Models accuracy and loss
-Test run performet 20210702 bath size 15, validation_split 0.1  with a EarlyStopping call back for val_loss at patience=5
+latest run, 128x128 image patches (1654) at 50 Epochs bath size 50, validation_split 0.1  
 
-<img src="/pics/Accuracy_20210703.png"  width="600" >
-<img src="/pics/Loss_20210703.png"   width=600 >
+<img src="/pics/accuracy_UNET_ep50_bs50_2021-10-10_1654x128x128x3_050_050.png"  width="600" >
+<img src="/pics/loss_UNET_ep50_bs50_2021-10-10_1654x128x128x3_050_050.png   width=600 >
 
 #### Prediction test 
 <img src="/pics/ThreeModelTest_eng_20210702.png" width="600">
