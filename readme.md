@@ -56,8 +56,8 @@ Model source Dr. Sreenivas Bhattiprolu  [U-net](https://github.com/bnsreenu/pyth
 ### Models accuracy and loss
 latest run, 128x128 image patches (1654) at 50 Epochs bath size 50, validation_split 0.1  
 
-<img src="/pics/accuracy_UNET_ep50_bs50_2021-10-10_1654x128x128x3_050_050.png"  width="600" >
-<img src="/pics/loss_UNET_ep50_bs50_2021-10-10_1654x128x128x3_050_050.png   width=600 >
+<img src="/pics/accuracy_UNET_ep50_bs50_2021-10-10_1654x128x128x3.png"  width="600" >
+<img src="/pics/loss_UNET_ep50_bs50_2021-10-10_1654x128x128x3.png"  width=600 >
 
 #### Prediction test 
 <img src="/pics/ThreeModelTest_eng_20210702.png" width="600">
