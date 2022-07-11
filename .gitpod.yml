@@ -1,0 +1,4 @@
+tasks: 
+ - name: Setup
+   init: pip install -r requirments.txt
+   command: apt-get install -y libgl1-mesa-dev
